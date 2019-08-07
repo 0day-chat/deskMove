@@ -14,12 +14,12 @@ using System.IO;
 
 namespace deskMoveClient
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         public static Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         int i = 0;
         public byte[] ImageInArray;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             

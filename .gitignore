@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/deckMove/v15
+/deskMoveServer/deskMoveServer/bin/Debug
+/deskMoveServer/deskMoveServer/obj/Debug

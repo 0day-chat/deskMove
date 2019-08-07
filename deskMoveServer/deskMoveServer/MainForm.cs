@@ -14,13 +14,13 @@ using System.Net.Sockets;
 
 namespace deskMove
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         int port = 6099;
         public static Bitmap desktop = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
         public static Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         public Socket cl;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }

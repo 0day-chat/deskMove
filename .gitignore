@@ -5,3 +5,5 @@
 /.vs/deckMove/v15
 /deskMoveServer/deskMoveServer/bin/Debug
 /deskMoveServer/deskMoveServer/obj/Debug
+/deskMoveClient/deskMoveClient/obj/Debug
+/deskMoveClient/deskMoveClient/bin/Debug
